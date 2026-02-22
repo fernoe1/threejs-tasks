@@ -1,4 +1,4 @@
-# 10 Textures starter
+# 7 Textures starter
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
