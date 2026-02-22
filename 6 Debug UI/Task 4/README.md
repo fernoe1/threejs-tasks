@@ -18,7 +18,9 @@ Using lil-gui add the following:
 12. spin z function (all of them need to spin by 360 deg)
 13. color field that uses actual color
 
+You must give name to your main GUI and create a folder that stores every debug about the cube.
 
+You must have keypress event listener that shows and hides debug ui on 'h' key press.
 
 You must have CSS that makes your canvas take whole screen.
 
