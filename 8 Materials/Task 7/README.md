@@ -9,6 +9,8 @@ Enable orbit controls.
 Create a sphere, plane, and a torus meshes with same MeshPhongMaterial.
 
 
+Create a point light.
+
 
 Create 'three mesh' folder.
 
