@@ -76,7 +76,17 @@ threeMeshTweaks
         double: THREE.DoubleSide
     });
 
+const timer = new THREE.Timer();
+const meshes = [sphere, plane, torus];
 const tick = (timestamp) => {
+    timer.update(timestamp);
+    const elapsedTime = timer.getElapsed();
+
+    meshes.forEach((mesh) => {
+        mesh.rotation.y = 0.1 * elapsedTime;
+        mesh.rotation.x = -0.15 * elapsedTime;
+    });
+
     controls.update();
     renderer.render(scene, camera);
 
